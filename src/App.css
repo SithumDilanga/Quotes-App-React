@@ -5,10 +5,25 @@
   padding: 8px;
 }
 
-.item {
+.card {
+  /* background-image: url("/card-img.jpg"); */
+  padding: 8px;
   min-height: 350px;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
+
+.quoteText {
+  text-align: center;
+  padding: 96px 0;
+  font-size:larger;
+  font-weight: 500;
+}
+
+.quoteAuthor {
+  /* padding: 0 0 16px 0;  */
+  text-align: center;
+  margin: -72px;
 }
