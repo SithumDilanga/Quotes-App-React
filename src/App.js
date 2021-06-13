@@ -3,6 +3,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import { render } from '@testing-library/react';
 import backgroundImage from './images/card-img.jpg';
+import {FaQuoteRight} from "react-icons/fa"
 
 class App extends React.Component{
 
@@ -24,17 +25,25 @@ class App extends React.Component{
   }
 
     render() {
+      // style = {{backgroundImage: `url(${backgroundImage})`}} inside card
       return (
-        <div className = "grid">
-          {this.state.elements.length && this.state.elements.map((item, index) => {
-            return (
-              <div className = "card" style = {{backgroundImage: `url(${backgroundImage})`}}> 
-              {/* <img className = "card" src = "/card-img.jpg"/> */}
-                <div className = "quoteText" key={index}>{item.text}</div><br></br>
-                <div className = "quoteAuthor">- {item.author}</div>
-              </div>
-            );
-          })}
+        <div>
+          <div className = "topContainer">
+            <div>Quotes from great personalities</div>
+            {/* <div>Button</div> */}
+            <FaQuoteRight />
+          </div>
+          <div className = "grid">
+            {this.state.elements.length && this.state.elements.map((item, index) => {
+              return (
+                <div className = "card"> 
+                {/* <img className = "card" src = "/card-img.jpg"/> */}
+                  <div className = "quoteText" key={index}>{item.text}</div><br></br>
+                  <div className = "quoteAuthor">- {item.author}</div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       );
     }
