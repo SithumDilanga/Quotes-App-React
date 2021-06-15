@@ -44,7 +44,11 @@ class App extends React.Component{
           pageCount: Math.ceil(data.length / this.state.perPage),
           postData
         });
-      })
+      }).catch((error) => {
+        return <div>
+          <p>Error loading data! {error}</p>
+        </div>
+      });
   }
 
   handlePageClick = (e) => {

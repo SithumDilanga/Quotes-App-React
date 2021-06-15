@@ -51,7 +51,7 @@ body {
 .quoteAuthor {
   /* padding: 0 0 16px 0;  */
   text-align: center;
-  margin: -72px;
+  margin: auto;
 }
 
 /* Pagination styles from here*/
