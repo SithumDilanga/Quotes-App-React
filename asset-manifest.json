@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Quotes-App-React/static/css/main.96c293a3.chunk.css",
+    "main.js": "/Quotes-App-React/static/js/main.5fa34516.chunk.js",
+    "main.js.map": "/Quotes-App-React/static/js/main.5fa34516.chunk.js.map",
+    "runtime-main.js": "/Quotes-App-React/static/js/runtime-main.8a1036f9.js",
+    "runtime-main.js.map": "/Quotes-App-React/static/js/runtime-main.8a1036f9.js.map",
+    "static/js/2.d5d98426.chunk.js": "/Quotes-App-React/static/js/2.d5d98426.chunk.js",
+    "static/js/2.d5d98426.chunk.js.map": "/Quotes-App-React/static/js/2.d5d98426.chunk.js.map",
+    "static/js/3.f3d8ea21.chunk.js": "/Quotes-App-React/static/js/3.f3d8ea21.chunk.js",
+    "static/js/3.f3d8ea21.chunk.js.map": "/Quotes-App-React/static/js/3.f3d8ea21.chunk.js.map",
+    "index.html": "/Quotes-App-React/index.html",
+    "static/css/main.96c293a3.chunk.css.map": "/Quotes-App-React/static/css/main.96c293a3.chunk.css.map",
+    "static/js/2.d5d98426.chunk.js.LICENSE.txt": "/Quotes-App-React/static/js/2.d5d98426.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Quotes-App-React/static/media/background-img2.69fe9083.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a1036f9.js",
+    "static/js/2.d5d98426.chunk.js",
+    "static/css/main.96c293a3.chunk.css",
+    "static/js/main.5fa34516.chunk.js"
+  ]
+}
